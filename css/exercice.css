@@ -5,7 +5,17 @@
   align-items: baseline;
 }
 /* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container-small {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  align-items: baseline;
+}
 
+.exercice-baseline-2 .container-small .element {
+  width: 50%;
+  box-sizing: border-box;
+}
 
 /* 3. exercice-baseline-3 */
 .exercice-baseline-3 .container-small {
