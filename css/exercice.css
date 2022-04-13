@@ -6,6 +6,7 @@
 }
 /* 2. exercice-baseline-2 */
 
+
 /* 3. exercice-baseline-3 */
 .exercice-baseline-3 .container-small {
   display: flex;
@@ -26,4 +27,22 @@
 }
 /* 6. exercice-all-in-1 */
 
+
 /* 7. exercice-all-in-2 */
+.exercice-all-in-2 .container-small {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  align-items: baseline;
+}
+
+.exercice-all-in-2 .container-small .element-pink {
+  order: 1;
+  flex-grow: 1;
+}
+
+.exercice-all-in-2 .container-small .element-blue {
+  flex-grow: 1;
+}
